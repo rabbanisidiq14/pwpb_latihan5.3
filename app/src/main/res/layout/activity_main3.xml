@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Created by : Rabbani S F M, XII RPL 1"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Dungeon Invade"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    <TextView
+        android:id="@+id/desc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ternyata disini terdapat pintu aneh, coba masukkan kuncinya ke situ, eh kamu punya kuncinya atau tidak? bodoh"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masukkan Kunci -->> "/>
+
+        <Button
+            android:id="@+id/lubang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lubang"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/lobby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lobby"/>
+        <Button
+            android:id="@+id/pintu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="Pintu Aneh"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/kunci2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kunci Kamu : 9999999"/>
+
+    <TextView
+        android:id="@+id/hadiah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:visibility="invisible"
+        android:text="SELAMAT, KAMU MENDAPATKAN PENGALAMAN MENCENGANGKAN, TERIMA KASIH SUDAH MENGUNJUNGI DUNGEON KAMI \:'')"/>
+
+
+</LinearLayout>

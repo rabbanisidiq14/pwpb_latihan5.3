@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Created by : Rabbani S F M, XII RPL 1"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Dungeon Invade"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Selamat datang di Dungeon, Didalam dungeon ini terdapat harta tersembunyi yang dapat mengabulkan permintaan apapun. Untuk memulai pencariannya, pilihlah satu diantara dua jalan yang ada di hadapanmu ini!"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnkedua1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:text="Kiri" />
+        <Button
+            android:id="@+id/btnketiga1"
+            android:layout_below="@+id/btnkedua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kanan"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/kunci1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kunci Kamu : 9999999"/>
+</LinearLayout>
